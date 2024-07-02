@@ -1,66 +1,33 @@
-// index.js
-// where your node app starts
-
-// init project
 const express = require('express');
-const app = express();
-
-// enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
-// so that your API is remotely testable by FCC 
 const cors = require('cors');
-app.use(cors({ optionsSuccessStatus: 200 }));  // some legacy browsers choke on 204
+const mongoose = require('mongoose');
+const path = require('path');
+require('dotenv').config();
 
-// http://expressjs.com/en/starter/static-files.html
+const app = express();
+app.use(cors());
+app.use(express.json());
 app.use(express.static('public'));
 
-// http://expressjs.com/en/starter/basic-routing.html
-app.get("/", function(req, res) {
-  res.sendFile(__dirname + '/views/index.html');
+// Connect to MongoDB
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
-const isInvalidDate = (date) => date.toUTCString() === "Invalid Date";
+// Serve static files
+app.use(express.static(path.join(__dirname, 'public')));
 
-// your first API endpoint... 
-app.get("/api/:date", function(req, res) {
-  let date = new Date(req.params.date);
-
-  if (isInvalidDate(date)) {
-    date = new Date(+req.params.date);
-  }
-
-  if (isInvalidDate(date)) {
-    res.json({ error: "Invalid Date" });
-  } else {
-    const unix = date.getTime();
-    const iso = date.toISOString();
-    const rfc2822 = date.toUTCString();
-    const utc = date.toUTCString();
-
-    res.json({
-      unix,
-      iso,
-      rfc2822,
-      utc
-    });
-  }
+// Basic route
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-app.get("/api", (req, res) => {
-  const date = new Date();
-  const unix = date.getTime();
-  const iso = date.toISOString();
-  const rfc2822 = date.toUTCString();
-  const utc = date.toUTCString();
+// Timestamp API
+app.get('/api/:date?', require('./api/timestamp'));
 
-  res.json({
-    unix,
-    iso,
-    rfc2822,
-    utc
-  });
-})
-
-// listen for requests :)
-const listener = app.listen(process.env.PORT || 3000, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
+// Listen on port
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
