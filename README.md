@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="75" height="75" alt="NodeJS" style="margin: 0 15px;" />
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="75" height="75" alt="MongoDB" style="margin: 0 15px;" />
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="75" height="75" alt="Express" style="margin: 0 15px;" />
-  <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="75" height="75" alt="freeCodeCamp" style="margin: 0 15px;" />
+  <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="auto" height="75" alt="freeCodeCamp" style="margin: 0 15px;" />
 </p>
 
 
