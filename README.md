@@ -1,19 +1,23 @@
 ## Backend of Timestamp Microservice
 ---
 ## Technologies Used
-
-### Node.js
-![Node.js](https://nodejs.org/static/images/logo.svg)
-
-### Express
-![Express](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png)
-
-### MongoDB
-![MongoDB](https://webimages.mongodb.com/_com_assets/cms/kuyjsg7d9n8m88dh5-MongoDB_Logo_FullColorBlack_RGB-8bit.png)
-
-### freeCodeCamp
-![freeCodeCamp](https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png)
-
+<p align="center">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="50" height="50" alt="JavaScript" />
+  </a>
+  <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="50" height="50" alt="NodeJS" />
+  </a>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="50" height="50" alt="MongoDB" />
+  </a>
+  <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="50" height="50" alt="Express" />
+  </a>
+  <a href="https://www.freecodecamp.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" width="50" height="50" alt="freeCodeCamp" />
+  </a>
+</p>
 ---
 
 ### Functionality
