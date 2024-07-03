@@ -1,7 +1,7 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "FreeCodeCamp Challenge improved by Carlos Reinis for personal use only / portfolio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
