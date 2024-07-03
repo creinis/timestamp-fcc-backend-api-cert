@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Timestamp Microservice</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="../public/style.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
@@ -23,12 +23,17 @@
         <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
       </p>
     </div>
+    <div class="footer">
+      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a></p>
+    </div>
+    <hr/>
 
     <div class="container">
       <h3>Try it yourself:</h3>
+      <br/>
       <form id="timestampForm">
-        <input type="text" id="dateInput" placeholder="Enter date or timestamp">
-        <button type="submit">Submit</button>
+        <p>[projetc url]/api/ <input type="text" id="dateInput" placeholder="Enter date or timestamp">
+        <button type="submit">Submit</button></p>
       </form>
       <p>
         <code id="result"></code>
@@ -51,7 +56,17 @@
             if (data.error) {
               document.getElementById('result').textContent = `Error: ${data.error}`;
             } else {
-              document.getElementById('result').textContent = `{"unix": ${data.unix}, "ISO": ${data.iso}, "RFC 2822": ${data.rfc2822}, "utc": ${data.utc}}`;
+              document.getElementById('result').innerHTML = `
+                <br>
+                <strong>Output:</strong>
+                <br>
+                <strong>"unix":</strong> ${data.unix},<br>
+                <strong>"ISO":</strong> ${data.iso},<br>
+                <strong>"RFC 2822":</strong> ${data.rfc2822},<br>
+                <strong>"utc":</strong> ${data.utc}
+                <br>
+              `;
+              
             }
           })
           .catch(error => {
