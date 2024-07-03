@@ -58,8 +58,8 @@ Imagine an event scheduling application where users need to input dates and time
 With this structure, the backend of the Timestamp Microservice provides an efficient and flexible solution for handling date and time requirements in real-world web applications.
 
 ---
-## This is a FreeCodeCamp Challenge for Back End Development and APIs Projects Certification
+### This is a FreeCodeCamp Challenge for Back End Development and APIs Projects Certification
 <p align="center">
-<img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary_large.svg" width="200" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="200" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
  </p>
 
