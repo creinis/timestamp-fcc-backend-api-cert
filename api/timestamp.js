@@ -17,6 +17,8 @@ module.exports = (req, res) => {
   } else {
     res.json({
       unix: date.getTime(),
+      iso: date.toISOString(),
+      rfc2822: date.toString(),
       utc: date.toUTCString(),
     });
   }
