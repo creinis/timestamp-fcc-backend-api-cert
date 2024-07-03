@@ -5,7 +5,6 @@
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="75" height="75" alt="NodeJS" style="margin: 0 15px;" />
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="75" height="75" alt="MongoDB" style="margin: 0 15px;" />
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="75" height="75" alt="Express" style="margin: 0 15px;" />
-  <img src="https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s900-c-k-c0xffffffff-no-rj-mo" width="75" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
 </p>
 
 
@@ -59,3 +58,8 @@ Imagine an event scheduling application where users need to input dates and time
 With this structure, the backend of the Timestamp Microservice provides an efficient and flexible solution for handling date and time requirements in real-world web applications.
 
 ---
+## This is a FreeCodeCamp Challenge for Back End Development and APIs Projects Certification
+<p align="center">
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary_large.svg" width="200" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
+ </p>
+
