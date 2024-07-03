@@ -1,10 +1,10 @@
 ## Timestamp Microservice
 
 <p align="center">
+   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="75" height="75" alt="MongoDB" style="margin: 0 15px;" />
+  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="75" height="75" alt="Express" style="margin: 0 15px;" />
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="75" height="75" alt="JavaScript" style="margin: 0 15px;" />
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="75" height="75" alt="NodeJS" style="margin: 0 15px;" />
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="75" height="75" alt="MongoDB" style="margin: 0 15px;" />
-  <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="75" height="75" alt="Express" style="margin: 0 15px;" />
 </p>
 
 
@@ -60,6 +60,6 @@ With this structure, the backend of the Timestamp Microservice provides an effic
 ---
 ### This is a FreeCodeCamp Challenge for Back End Development and APIs Projects Certification
 <p align="center">
-<img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="200" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
+<img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="250" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
  </p>
 
